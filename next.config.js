@@ -7,4 +7,14 @@ module.exports = withMDX({
   future: {
     webpack5: true,
   },
+
+  async redirects() {
+    return [
+      {
+        source: "/",
+        destination: "/docs/versum/introduction",
+        permanent: false,
+      },
+    ]
+  },
 })

@@ -7,8 +7,8 @@ export const StyleGuide = {
   },
 
   body: {
-    backgroundColor: "white", //"$primaryBackground",
-    color: "black", // "$primaryFill",
+    backgroundColor: "$primaryBackground",
+    color: "$primaryFill",
     fontFamily: "$DMSans",
     fontSize: "16px",
   },

@@ -1,12 +1,12 @@
 import { FC, useMemo } from "react"
 import Head from "next/head"
-import Link from "next/link"
 import { getMDXComponent } from "mdx-bundler/client"
 import { Aside } from "@components/aside"
 import { Article } from "@components/article"
+import { Footer } from "@components/footer"
 import { getNavigation, getMdxBySlug, getSlugs, getVersion } from "@utils/mdx"
 
-interface DocsProps {
+export interface DocsProps {
   navigation: any
   version: string
   frontmatter: any
@@ -28,15 +28,11 @@ const Docs: FC<DocsProps> = (props) => {
           <Component />
         </section>
 
-        <footer>
-          <Link
-            href={`https://github.com/Tepache-Labs/docs/edit/main/src/docs/${frontmatter.slug.join(
-              "/"
-            )}.mdx`}
-          >
-            <a>Edit this page on Github</a>
-          </Link>
-        </footer>
+        <Footer
+          url={`https://github.com/Tepache-Labs/docs/edit/main/src/docs/${frontmatter.slug.join(
+            "/"
+          )}.mdx`}
+        />
       </Article>
     </>
   )

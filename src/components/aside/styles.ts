@@ -8,11 +8,11 @@ export const Aside = styled("aside", {
   borderBottom: "1px solid rgba(0, 0, 0, 0.05)",
 
   "@bp1": {
-    position: "unset",
-    top: "unset",
+    position: "fixed",
+    top: 0,
+    left: 0,
+    bottom: 0,
     width: "250px",
-    height: "100vh",
-    overflow: "hidden",
     borderBottom: "unset",
     borderRight: "1px solid rgba(0, 0, 0, 0.05)",
   },

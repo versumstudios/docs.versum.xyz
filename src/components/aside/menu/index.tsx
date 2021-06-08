@@ -18,7 +18,7 @@ const Menu: FC<MenuProps> = ({ navigation }) => {
           return (
             <Link key={item.slug} href={item.children[0].slug}>
               <Styles.A selected={router.asPath.indexOf(item.slug) !== -1}>
-                {item.name}
+                <strong>{item.name}</strong>
               </Styles.A>
             </Link>
           )
@@ -30,7 +30,11 @@ const Menu: FC<MenuProps> = ({ navigation }) => {
           {e.children.map((i: any) => {
             return (
               <li key={i.slug}>
-                <Link href={i.slug}>{i.name}</Link>
+                <Link href={i.slug}>
+                  <Styles.A selected={router.asPath.indexOf(i.slug) !== -1}>
+                    {i.name}
+                  </Styles.A>
+                </Link>
               </li>
             )
           })}

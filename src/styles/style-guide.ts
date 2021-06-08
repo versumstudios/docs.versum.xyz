@@ -35,7 +35,13 @@ export const StyleGuide = {
 
   p: { fontSize: "1rem" },
 
-  a: { color: "black" },
+  a: {
+    color: "$secondaryFill",
+
+    "&:hover": {
+      color: "$primaryFill",
+    },
+  },
 
   "h1,h2,h3,h4,h5,h6,p": {
     marginBottom: "$2",

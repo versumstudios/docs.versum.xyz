@@ -41,19 +41,18 @@ export const Ul = styled("ul", {
 export const A = styled("a", {
   textTransform: "capitalize",
   cursor: "pointer",
-  fontWeight: 700,
   backgroundColor: "$secondaryBackground",
-  color: "#666666",
+  color: "$secondaryFill",
 
   "&:hover": {
-    color: "black",
+    color: "$primaryFill",
   },
 
   variants: {
     selected: {
       true: {
         backgroundColor: "$terciaryBackground",
-        color: "black",
+        color: "$primaryFill",
       },
     },
   },

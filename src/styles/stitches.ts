@@ -15,6 +15,7 @@ export const {
       terciaryBackground: "#f6f6f6",
       borderColor: "#e8e8e8",
       primaryFill: "#000000",
+      secondaryFill: "#666666",
     },
     space: {
       1: "10px",

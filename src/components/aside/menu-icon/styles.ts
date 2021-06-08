@@ -14,7 +14,7 @@ export const Container = styled("div", {
     height: "30px",
 
     line: {
-      stroke: "black",
+      stroke: "$primaryFill",
     },
   },
 })

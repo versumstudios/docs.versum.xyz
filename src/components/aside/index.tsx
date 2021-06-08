@@ -1,8 +1,6 @@
-import { FC, useState } from "react"
-import Link from "next/link"
-import { useRouter } from "next/router"
-import { motion, AnimatePresence } from "framer-motion"
+import { FC, useState, useEffect } from "react"
 import { MenuIcon } from "./menu-icon"
+import { Mobile, Desktop } from "./menu"
 import * as Styles from "./styles"
 
 export interface AsideProps {
@@ -11,8 +9,16 @@ export interface AsideProps {
 }
 
 export const Aside: FC<AsideProps> = ({ navigation, version }) => {
-  const [open, setOpen] = useState(true)
-  const router = useRouter()
+  const [open, setOpen] = useState(false)
+
+  useEffect(() => {
+    // if (open) {
+    //   document.body.style["overflow"] = "hidden"
+    // } else {
+    //   document.body.style["overflow"] = "unset"
+    // }
+  }, [open])
+
   return (
     <Styles.Aside>
       <Styles.Main>
@@ -25,44 +31,8 @@ export const Aside: FC<AsideProps> = ({ navigation, version }) => {
         </nav>
       </Styles.Main>
 
-      <AnimatePresence>
-        {open && (
-          <motion.div>
-            <Styles.Nav>
-              {navigation.children.map((item: any) => {
-                return (
-                  <Link key={item.slug} href={item.children[0].slug}>
-                    <Styles.A
-                      selected={router.asPath.indexOf(item.slug) !== -1}
-                    >
-                      {item.name}
-                    </Styles.A>
-                  </Link>
-                )
-              })}
-            </Styles.Nav>
-
-            <>
-              {navigation.children.map((e: any) => {
-                return (
-                  <Styles.Ul
-                    key={e.slug}
-                    selected={router.asPath.indexOf(e.slug) !== -1}
-                  >
-                    {e.children.map((i: any) => {
-                      return (
-                        <li key={i.slug}>
-                          <Link href={i.slug}>{i.name}</Link>
-                        </li>
-                      )
-                    })}
-                  </Styles.Ul>
-                )
-              })}
-            </>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <Mobile navigation={navigation} isOpen={open} />
+      <Desktop navigation={navigation} />
     </Styles.Aside>
   )
 }

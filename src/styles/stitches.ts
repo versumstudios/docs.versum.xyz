@@ -11,11 +11,15 @@ export const {
   theme: {
     colors: {
       primaryBackground: "#ffffff",
+      secondaryBackground: "#fafafa",
+      terciaryBackground: "#f6f6f6",
+      borderColor: "#e8e8e8",
       primaryFill: "#000000",
     },
     space: {
       1: "10px",
       2: "20px",
+      3: "60px",
     },
     fontSizes: {
       1: "16px",

@@ -38,21 +38,22 @@ export const StyleGuide = {
   a: { color: "black" },
 
   "h1,h2,h3,h4,h5,h6,p": {
-    marginBottom: "20px",
+    marginBottom: "$2",
   },
 
   hr: {
     border: "none",
     width: "100%",
     height: "1px",
-    background: "rgba(180, 180, 180, 0.2)",
-    marginTop: "60px",
-    marginBottom: "60px",
+    background: "$borderColor",
+    marginTop: "$3",
+    marginBottom: "$3",
   },
 
   pre: {
-    padding: "20px",
-    borderRadius: "6px",
-    backgroundColor: "rgba(0,0,0,0.04)",
+    padding: "$2",
+    borderRadius: "4px",
+    backgroundColor: "$secondaryBackground",
+    fontFamily: "$monospace",
   },
 }

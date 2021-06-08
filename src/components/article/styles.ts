@@ -8,6 +8,7 @@ export const Article = styled("article", {
 
   section: {
     flexGrow: 1,
+    padding: "$2",
   },
 
   "@bp1": {

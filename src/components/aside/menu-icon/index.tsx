@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import * as Styles from "./styles"
 
 const transition = {
-  duration: 0.5,
+  duration: 0.2,
   ease: [0.43, 0.13, 0.23, 0.96],
 }
 

@@ -394,17 +394,10 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@stitches/core@^0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@stitches/core/-/core-0.1.9.tgz#6cc42ae6052f6900f9add164232449ff8d62c4ba"
-  integrity sha512-70gVb0uhgV6BOJmloirWEGZmofk/Hzr5yWlub1rtm4CvimD3Xl5xr9fVkjcTu+REC6ILCJCnlEP4WmilTfXNOA==
-
-"@stitches/react@^0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@stitches/react/-/react-0.1.9.tgz#b16e05c9ee7e34369bb3b051b92a997ab379863f"
-  integrity sha512-yK4ZAdkuOiOum+bfPYlDNS9UI/Tm9JYsYNMUWLB3uAy+7tvSYfB4cVYkXwFuiKxis03woATTZTe6IlTb+LXm+A==
-  dependencies:
-    "@stitches/core" "^0.1.9"
+"@stitches/react@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@stitches/react/-/react-0.2.1.tgz#c63a0a337b849b302da2342cb5d7aeb6ea257913"
+  integrity sha512-LPCOUXsadQM4JrtHQEsOJ+msyss0KySO9jL8L2SUVi9Vi6BfbyEi1mVGaqgvIQRZQfWsM0Se/3AXcl9rUQi5Nw==
 
 "@types/estree-jsx@^0.0.1":
   version "0.0.1"

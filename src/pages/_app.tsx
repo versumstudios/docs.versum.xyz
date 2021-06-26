@@ -1,16 +1,11 @@
 import Head from "next/head"
 import type { AppProps } from "next/app"
 import { MDXProvider } from "@mdx-js/react"
-import { createGlobalStyles } from "@styles/stitches"
-import { StyleGuide } from "@styles/style-guide"
-import reset from "@styles/reset.css"
+import { globalStyles } from "@styles/stitches"
 import { Main } from "@components/main"
 
 export default function App({ Component, pageProps }: AppProps) {
-  createGlobalStyles({
-    "@import": [reset],
-    ...StyleGuide,
-  })()
+  globalStyles()
 
   return (
     <>

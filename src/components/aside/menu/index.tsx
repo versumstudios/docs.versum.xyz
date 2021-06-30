@@ -15,16 +15,27 @@ const Menu: FC<MenuProps> = ({ navigation }) => {
     <>
       <Styles.Ul selected>
         <li>
+          <Link href="/docs/features">
+            <Styles.A selected={router.asPath.indexOf("/docs/features") !== -1}>
+              Features
+            </Styles.A>
+          </Link>
+        </li>
+
+        <li>
           <Link href="/docs/roadmap">
             <Styles.A selected={router.asPath.indexOf("/docs/roadmap") !== -1}>
               Roadmap
             </Styles.A>
           </Link>
         </li>
+
         <li>
-          <Link href="/docs/features">
-            <Styles.A selected={router.asPath.indexOf("/docs/features") !== -1}>
-              Features
+          <Link href="/docs/code-of-conduct">
+            <Styles.A
+              selected={router.asPath.indexOf("/docs/code-of-conduct") !== -1}
+            >
+              Code of Conduct
             </Styles.A>
           </Link>
         </li>

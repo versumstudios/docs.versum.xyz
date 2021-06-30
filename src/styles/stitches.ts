@@ -91,6 +91,12 @@ export const globalStyles = createGlobalStyles({
 
   "h1, h2, h3, h4, h5": { fontWeight: "normal" },
 
+  "h2, h3, h4, h5, h6": {
+    margin: "1rem 0",
+  },
+
+  ul: { listStylePosition: "inside" },
+
   // Fonts
   "@import": [
     'url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap")',

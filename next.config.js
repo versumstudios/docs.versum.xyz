@@ -12,7 +12,7 @@ module.exports = withMDX({
     return [
       {
         source: "/",
-        destination: "/docs/features",
+        destination: "/docs/roadmap",
         permanent: false,
       },
     ]

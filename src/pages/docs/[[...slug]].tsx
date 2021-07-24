@@ -29,7 +29,7 @@ const Docs: FC<DocsProps> = (props) => {
         </section>
 
         <Footer
-          url={`https://github.com/Tepache-Labs/docs/edit/main/src/docs/${frontmatter.slug.join(
+          url={`https://github.com/versumstudios/docs.versum.xyz/edit/main/src/docs/${frontmatter.slug.join(
             "/"
           )}.mdx`}
         />

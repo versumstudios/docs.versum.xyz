@@ -382,10 +382,10 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@stitches/react@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@stitches/react/-/react-0.2.2.tgz#8a2f8256835510c265ab20820f54a5bb0376bac6"
-  integrity sha512-/qRSX+ANPJg/0eLNr5bEywjkdvIfLbsaG2d8p83wPlI0MA7Yi9FzaRLk2H6DMAdJHuyu6ThY4HfHQIL35buY9g==
+"@stitches/react@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@stitches/react/-/react-0.2.3.tgz#b6c791783eb563bccf366ee75ab30dee2470393f"
+  integrity sha512-x8sho2hGD+G58RW/Di4xhd2K5IONLtzHbz3JFx3res6Tc1sWFJsfT+3qZgMVnAgPrFhjEkHkDyvNVVTp5M0BbQ==
 
 "@types/estree-jsx@^0.0.1":
   version "0.0.1"

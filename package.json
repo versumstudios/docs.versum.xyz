@@ -19,7 +19,7 @@
     "@stitches/react": "^0.2.3",
     "@types/glob": "^7.1.4",
     "@types/mdx-js__react": "^1.5.4",
-    "@types/node": "^16.4.11",
+    "@types/node": "^16.11.11",
     "@types/react": "^17.0.15",
     "@types/react-dom": "^17.0.9",
     "directory-tree": "^2.2.9",

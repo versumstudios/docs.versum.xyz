@@ -15,7 +15,7 @@
   "devDependencies": {
     "@mdx-js/loader": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
-    "@next/mdx": "^11.0.1",
+    "@next/mdx": "^12.0.7",
     "@stitches/react": "^0.2.3",
     "@types/glob": "^7.1.4",
     "@types/mdx-js__react": "^1.5.4",

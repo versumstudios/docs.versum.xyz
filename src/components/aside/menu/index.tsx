@@ -13,26 +13,47 @@ const Menu: FC<MenuProps> = ({ navigation }) => {
   const router = useRouter()
   return (
     <>
-      <Styles.Ul selected>
+      {false && (
+        <Styles.Ul selected>
+          <li>
+            <Link href="/docs/introduction">
+              <Styles.A
+                selected={router.asPath.indexOf("/docs/introduction") !== -1}
+              >
+                Introduction
+              </Styles.A>
+            </Link>
+          </li>
 
-        <li>
-          <Link href="/docs/roadmap">
-            <Styles.A selected={router.asPath.indexOf("/docs/roadmap") !== -1}>
-              Roadmap
-            </Styles.A>
-          </Link>
-        </li>
+          <li>
+            <Link href="/docs/faq">
+              <Styles.A selected={router.asPath.indexOf("/docs/faq") !== -1}>
+                FAQ
+              </Styles.A>
+            </Link>
+          </li>
 
-        <li>
-          <Link href="/docs/code-of-conduct">
-            <Styles.A
-              selected={router.asPath.indexOf("/docs/code-of-conduct") !== -1}
-            >
-              Code of Conduct
-            </Styles.A>
-          </Link>
-        </li>
-      </Styles.Ul>
+          <li>
+            <Link href="/docs/roadmap">
+              <Styles.A
+                selected={router.asPath.indexOf("/docs/roadmap") !== -1}
+              >
+                Roadmap
+              </Styles.A>
+            </Link>
+          </li>
+
+          <li>
+            <Link href="/docs/code-of-conduct">
+              <Styles.A
+                selected={router.asPath.indexOf("/docs/code-of-conduct") !== -1}
+              >
+                Code of Conduct
+              </Styles.A>
+            </Link>
+          </li>
+        </Styles.Ul>
+      )}
       {false && (
         <Styles.Nav>
           <Link key={"/docs/metaversum"} href={"/docs/metaversum/introduction"}>
@@ -50,7 +71,7 @@ const Menu: FC<MenuProps> = ({ navigation }) => {
         </Styles.Nav>
       )}
 
-      {false &&
+      {true &&
         navigation.children.map((e: any) => (
           <Styles.Ul
             key={e.slug}
@@ -78,11 +99,11 @@ export const Mobile: FC<MenuProps> = ({ navigation, isOpen }) => {
     <AnimatePresence>
       {isOpen && (
         <motion.div
-        // style={{ height: "calc(100vh - 60px)", overflowY: "auto" }}
-        // initial={{ opacity: 0 }}
-        // animate={{ opacity: 1 }}
-        // exit={{ opacity: 0 }}
-        // transition={{ duration: 0.2 }}
+          style={{ height: "calc(100vh - 60px)", overflowY: "auto" }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.2 }}
         >
           <Styles.Mobile>
             <Menu navigation={navigation} />

@@ -7,3 +7,7 @@
 ## Production
 
 `yarn build`
+
+## consider
+
+https://github.com/retypeapp/retype

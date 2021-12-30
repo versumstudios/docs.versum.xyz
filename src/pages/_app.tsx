@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="description" content="Docs" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:wght@400;700&display=swap"
           rel="stylesheet"
         />
       </Head>

@@ -27,7 +27,7 @@ export const {
     },
     fonts: {
       DMSans: "DM Sans, apple-system, sans-serif",
-      monospace: "menlo, monospace",
+      monospace: "DM Mono, monospace",
     },
   },
   media: {
@@ -99,7 +99,7 @@ export const globalStyles = createGlobalStyles({
 
   // Fonts
   "@import": [
-    'url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap")',
+    'url("https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:wght@400;700&display=swap")',
   ],
 
   // Globals
@@ -123,27 +123,27 @@ export const globalStyles = createGlobalStyles({
     "-webkit-font-smoothing": "antialiased",
   },
 
-  h1: { fontSize: "3.815rem", fontWeight: 700 },
+  h1: { fontSize: "2rem", fontWeight: 700 },
 
-  h2: { fontSize: "3.052rem" },
+  h2: { fontSize: "1.5rem", fontWeight: 700 },
 
-  h3: { fontSize: "2.441rem" },
+  h3: { fontSize: "1.17rem", fontWeight: 700 },
 
-  h4: { fontSize: "1.953rem" },
+  // h4: { fontSize: "1.953rem" },
 
-  h5: { fontSize: "1.563rem" },
+  // h5: { fontSize: "1.563rem" },
 
-  h6: { fontSize: "1.250rem" },
+  h6: { fontWeight: 700 },
 
   blockquotes: {},
 
   p: { fontSize: "1rem" },
 
   a: {
-    color: "$secondaryFill",
+    textDecoration: "underline",
 
     "&:hover": {
-      color: "$primaryFill",
+      textDecoration: "none",
     },
   },
 

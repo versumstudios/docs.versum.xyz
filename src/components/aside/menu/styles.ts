@@ -43,6 +43,7 @@ export const A = styled("a", {
   cursor: "pointer",
   backgroundColor: "$secondaryBackground",
   color: "$secondaryFill",
+  textDecoration: "none",
 
   "&:hover": {
     color: "$primaryFill",

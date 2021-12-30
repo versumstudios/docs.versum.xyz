@@ -113,7 +113,7 @@ export const globalStyles = createGlobalStyles({
   body: {
     backgroundColor: "$primaryBackground",
     color: "$primaryFill",
-    fontFamily: "$DMSans",
+    fontFamily: "$monospace",
     fontSize: "16px",
   },
 

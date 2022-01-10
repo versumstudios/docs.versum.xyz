@@ -26,7 +26,6 @@ export const {
       1: "16px",
     },
     fonts: {
-      DMSans: "DM Sans, apple-system, sans-serif",
       monospace: "DM Mono, monospace",
     },
   },
@@ -99,7 +98,7 @@ export const globalStyles = createGlobalStyles({
 
   // Fonts
   "@import": [
-    'url("https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:wght@400;700&display=swap")',
+    'url("https://fonts.googleapis.com/css2?family=DM+Mono&display=swap")',
   ],
 
   // Globals
@@ -141,6 +140,7 @@ export const globalStyles = createGlobalStyles({
 
   a: {
     textDecoration: "underline",
+    color: "$primaryFill",
 
     "&:hover": {
       textDecoration: "none",

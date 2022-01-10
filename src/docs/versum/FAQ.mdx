@@ -55,6 +55,8 @@ We’ve implemented these social features because we think marketplaces have bec
 
 ## What type of tokens can I mint?
 
+We regularly review which formats to include. For launch, we've opted for file types that are compatible cross-browser.
+
 You are able to mint:
 
 - images `(.png, jpg, .gif)`
@@ -76,7 +78,6 @@ You can use the following licenses from Creative Commons:
 - Creative Commons Zero v1.0 Universal ([CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/))
 - Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
 - Attribution-ShareALike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
-  {" "}
   <br />
   <br />
   You are also able to create a custom license or specify no license.
@@ -97,15 +98,15 @@ Tokens can be purchased with XTZ but also any other type of FA2 token `(coming s
 
 ## How does verification work?
 
-While there is no gatekeeping on Versum, we do have a few mechanisms in place to guarantee that you’re buying from a legitimate seller.
+While there is no gatekeeping on Versum, we do have a few mechanisms in place to guarantee that you’re buying from a legitimate seller. It also allows us to filter out most botters, scammers, and copyminters.
 
-**On-chain verification** is required for users to mint. If the seller/buyer specifies it, users will require this verification to interact with certain swaps, auctions, and offers. This allows us to filter out most botters, scammers, and copyminters.<br/>
+There are three types of verification Versum: unverified, off-chain, and on-chain verification. Users registered with any of the Tezos identity managers will be able to add multiple claims to their profile. The more claims you have, the higher your score. Above a certain score, you will unlock the **off-chain** status.
 
-**Off-chain verification** is when the state of the user gets verified off-chain and the user is provided with a badge<br/>
+**Unverified users** don't have a profile set up with any of the Tezos identity managers ([Tezos Profiles](https://tzprofiles.com/), [TZKT](https://tzkt.io), or [SUBJKT](https://hicetnunc.art)). They will have some restrictions in place.<br/>
 
-**Unverified users** that aren’t registered with [Tezos Profiles](https://tzprofiles.com/) or [tzkt](https://tzkt.io) will have some restrictions in place.<br/>
+**Off-chain verified** is when the state of a user has enough claims associated with their profile. This process is automatic as we're constantly monitoring the above identity managers.<br/>
 
-To note, users registered with Tezos Profiles will be able to add multiple claims to their profile. The more claims you have, the higher your score. Above a certain score you will achieve the **Off-chain verification** status.
+**On-chain verified** is when an off-chain verified user self-attests and signs their claims. This verification is required for users to mint. If the artist or seller specifies it, users will require this verification to interact with certain swaps, auctions, and offers.<br/>
 
 ## What is Tezos?
 

@@ -9,8 +9,18 @@ While there is no gatekeeping on Versum, we do have a few mechanisms in place to
 
 There are three types of verification Versum: unverified, off-chain, and on-chain verification. Users registered with any of the Tezos identity managers can associate multiple claims to their profiles. The more claims you have, the higher your score. Above a certain score, you will unlock the off-chain status.
 
-**Unverified users** don't have a profile set up with any of the Tezos identity managers ([Tezos Profiles](https://tzprofiles.com/), [TZKT](https://tzkt.io), [SUBJKT](https://hicetnunc.art), or [TezID](https://tezid.net/)). They will have some sales restrictions in place, which include a two-week waiting period for withdrawal of funds received from secondary sales.<br/>
+**Unverified users** don't have a profile set up with any of the Tezos identity managers ([Tezos Profiles](https://tzprofiles.com/), [TZKT](https://tzkt.io), [SUBJKT](https://hicetnunc.art), or [TezID](https://tezid.net/)). They will have some sales restrictions in place.<br/>
 
 **Off-chain verified** is when the state of a user has enough claims associated with their profile. This process is automatic as we're constantly monitoring the above identity managers.<br/>
 
 **On-chain verified** is when an off-chain verified user self-attests and signs their claims. This verification is required for users to mint. If the artist or seller specifies it, users will require this verification to interact with certain swaps, auctions, and offers.<br/>
+
+## Unverified user restrictions
+
+In an effort to keep the platform clear of potential copyminters there is a two-week waiting period for withdrawal of funds from our Marketplace for secondary sales.<br/>
+
+This is designed to discourage the kind of activity we have seen on other platforms where some bad actors would generate wallets to sell art that wasn't theirs, get caught, blocked and then start over. The more users blocked the slower our database queries would be because our ban list would keep increasing. We understand that for legitimate users that might prefer anonymity this might be a deterrent, but we have decided that this approach has more pros than cons and we are happy to verify wallets manually - though that might take a while since we're a small team<br/>
+
+## Claiming funds on escrow
+
+If you have already received funds and choose to get verified, we will soon be adding new functionality to withdraw your funds from escrow. Alternatively, click [here](https://better-call.dev/mainnet/KT1NUrzs7tiT4VbNPqeTxgAFa4SXeV1f3xe9/interact?entrypoint=withdraw_outstanding_tez) to manually withdraw your funds.

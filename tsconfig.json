@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5", // Specify ECMAScript target version
-    "lib": ["dom", "dom.iterable", "esnext"], // List of library files to be included in the compilation
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ], // List of library files to be included in the compilation
     "allowJs": true, // Allow JavaScript files to be compiled
     "skipLibCheck": true, // Skip type checking of all declaration files
     "esModuleInterop": true, // Disables namespace imports (import * as fs from "fs") and enables CJS/AMD/UMD style imports (import fs from "fs")
@@ -23,15 +27,32 @@
     "baseUrl": ".",
     "paths": {
       //alias pathing for absolute paths
-      "@components/*": ["src/components/*"],
-      "@docs/*": ["src/docs/*"],
-      "@pages/*": ["src/pages/*"],
-      "@utils/*": ["src/utils/*"],
-      "@styles/*": ["src/styles/*"]
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@docs/*": [
+        "src/docs/*"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ]
     },
     "experimentalDecorators": true /* Enables experimental support for ES7 decorators. */,
-    "emitDecoratorMetadata": true /* Enables experimental support for emitting type metadata for decorators. */
+    "emitDecoratorMetadata": true /* Enables experimental support for emitting type metadata for decorators. */,
+    "incremental": true
   },
-  "include": ["next-env.d.ts", "src/**/*"],
-  "exclude": ["node_modules", "coverage"] // *** The files to not type check ***
+  "include": [
+    "next-env.d.ts",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "coverage"
+  ] // *** The files to not type check ***
 }

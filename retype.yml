@@ -1,0 +1,16 @@
+input: .
+output: .retype
+url: https://docs.versum.xyz
+branding:
+  title: versum
+  label: Docs
+links:
+  - text: Status Page
+    link: https://status.versum.xyz
+  - text: Versum
+    link: https://versum.xyz
+footer:
+  copyright: "Copyright &copy; {{ year }}. All rights reserved."
+server:
+  host: 0.0.0.0
+  port: 3000

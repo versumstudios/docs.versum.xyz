@@ -5,7 +5,6 @@ description: Slippage
 
 # Slippage
 
-Advanced swaps have a staggering price which changes as users buy new editions. That means if someone buys it before you while your transaction is in the mempool the price will no loger be valid and
-your transaction will fail.
+Advanced swaps have a moving price that changes as users buy new editions. Occasionally, when someone buys the piece before you and completes their transaction while yours is still in the mempool, the price will no longer be valid and your transaction will fail.
 
-By adjusting the slippage you are sending a slightly higher value to the asking price. This slippage should cover your transaction in case someone else's transaction arrives first. Any excess send to the smart contracts will be returned to your wallet.
+By adjusting the slippage you are sending a slightly higher value than the asking price, in order to complete your transaction regardless of existing orders in the mempool. If you overpay, the excess will be returned to your wallet when the transaction completes.

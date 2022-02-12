@@ -1,3 +1,6 @@
+---
+order: 1000
+---
 # Minting
 
 ## I'm a new user to Versum. Can I mint straight away?

@@ -1,3 +1,6 @@
+---
+order: 900
+---
 # Verification
 
 In order to prevent copyminting and rampant botting, we have instituted a simple verification mechanism to ensure that everyone using Versum is a legitimate person who is a part of our Tezos creative community. While there is no gatekeeping on Versum, anyone can buy and sell on the platform, registration is encouraged. In cases where no registration has been made, some restrictions will apply.

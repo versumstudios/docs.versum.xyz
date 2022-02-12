@@ -48,35 +48,9 @@ Boards can be private or public. Public boards can be followed by anyone, while 
 
 We’ve implemented these social features because we think marketplaces have become too busy, with many barriers for collectors and artists who have no option but to consume the content curated for them. These are tools that give you control of the content you consume.
 
-## What type of tokens can I mint?
-
-We regularly review which formats to include. For launch, we've opted for file types that are compatible cross-browser.
-
-You are able to mint:
-
-- images `(.png, jpg, .gif)`
-- videos `(.mp4, .ogg)`
-- audio `(.mp3, .wav)`
-- vector `(.svg)`
-- PDF `(.pdf)`
-- 3D files `(.glb)`
-- web
-- generative tokens `(coming soon)`.
-
 ## Can I do collaborations with other artists?
 
 Yes, Versum’s smart contracts are collaborative by default. You can add multiple co-creators and multiple benefactors on royalty splits.
-
-## What types of licenses are available?
-
-You can use the following licenses from Creative Commons:
-
-- Creative Commons Zero v1.0 Universal ([CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/))
-- Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
-- Attribution-ShareALike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
-  <br />
-  <br />
-  You are also able to create a custom license or specify no license.
 
 ## How can tokens be traded?
 

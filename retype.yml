@@ -1,4 +1,4 @@
-input: .
+input: ./docs/
 output: .retype
 url: https://docs.versum.xyz
 branding:

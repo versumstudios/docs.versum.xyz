@@ -6,5 +6,7 @@ Some of our other repositories are private for now, that might change in the fut
 ## Develop
 This docs repo uses [retype](https://retype.com/guides/getting-started/) to generate the documentation.
 
-`yarn global add retypeapp`
-`retype watch`
+```
+yarn global add retypeapp
+retype watch
+```

@@ -1,5 +1,6 @@
 ---
 order: 800
+icon: chevron-right
 ---
 # Materia
 
@@ -15,3 +16,7 @@ Connecting your wallet to Versum for the very first time, you will be prompted w
 ## Airdrops
 
 Materia is airdropped regularly to users based on their activity.
+
+## Using Materia
+
+Currently Materia is required to mint new tokens, and 0.01 Materia will be deducted from your balance and burned.

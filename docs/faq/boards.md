@@ -1,3 +1,6 @@
+---
+icon: chevron-right
+---
 # Boards
 
 Boards are a list or gallery of tokens and they can be either private or public.

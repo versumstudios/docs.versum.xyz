@@ -1,5 +1,6 @@
 ---
 order: 900
+icon: chevron-right
 ---
 # Verification
 

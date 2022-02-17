@@ -1,3 +1,6 @@
+---
+icon: chevron-right
+---
 # KYC
 
 KYC, which is short for "know your customer" as well as "know your client", is the process of verifying a customer's identity. It's most common with financial institutions and financial service businesses, including banks, stock brokers, and now cryptocurrency exchanges.

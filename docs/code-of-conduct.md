@@ -1,3 +1,7 @@
+---
+order: 100
+icon: heart
+---
 # Code of Conduct
 
 ## 1. Purpose

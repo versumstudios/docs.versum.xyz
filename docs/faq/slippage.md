@@ -1,3 +1,6 @@
+---
+icon: chevron-right
+---
 # Slippage
 
 Advanced swaps have a moving price that changes as users buy new editions. Occasionally, when someone buys the piece before you and completes their transaction while yours is still in the mempool, the price will no longer be valid and your transaction will fail.

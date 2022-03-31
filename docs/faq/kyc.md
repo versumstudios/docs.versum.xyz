@@ -20,3 +20,5 @@ When the trading volume threshold is reached, a KYC warning will display on your
 [https://ec.europa.eu/commission/presscorner/detail/en/QANDA_21_3689](https://ec.europa.eu/commission/presscorner/detail/en/QANDA_21_3689)
 
 [https://fsblockchain.medium.com/crypto-currencies-as-a-new-challenge-to-anti-money-laundering-regulation-and-the-e6429461c13e](https://fsblockchain.medium.com/crypto-currencies-as-a-new-challenge-to-anti-money-laundering-regulation-and-the-e6429461c13e)
+[https://blog.coinbase.com/making-your-voice-heard-ahead-of-thursdays-critical-eu-vote-f03730e83e5c](https://blog.coinbase.com/making-your-voice-heard-ahead-of-thursdays-critical-eu-vote-f03730e83e5c)
+[https://www.euronews.com/next/2022/03/31/eu-lawmakers-target-crypto-transfers-in-battle-against-money-laundering](https://www.euronews.com/next/2022/03/31/eu-lawmakers-target-crypto-transfers-in-battle-against-money-laundering)

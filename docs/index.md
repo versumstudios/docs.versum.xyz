@@ -56,20 +56,6 @@ We’ve implemented these social features because we think marketplaces have bec
 
 Yes, Versum’s smart contracts are collaborative by default. You can add multiple co-creators and multiple benefactors on royalty splits.
 
-## How can tokens be traded?
-
-You can conduct swaps, auctions, and offers.
-
-**Swaps** — There are three types of swaps — `simple`, `time-limited` and `advanced`. Simple swaps are always sold at the same price, Time-limited swaps have a fixed price and a time limit, and advanced swaps have a defined start price and end price. The price will automatically adjust based on how many tokens are left.<br/>
-
-**Auctions** — A token goes up for auction with a minimum purchase price (in XTZ or FA2) and a duration (in hours).<br/>
-
-**Offers** — When an offer is made on a token any collector who has that token receives a notification asking if they would like to sell this token (in XTZ or FA2).<br/>
-
-## What currency can I use to purchase a token?
-
-Tokens can be purchased with XTZ but also any other type of FA2 token.
-
 ## How does verification work?
 
 Please read [Verification page](./faq/verification.md).

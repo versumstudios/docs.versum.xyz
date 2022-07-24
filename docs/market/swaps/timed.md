@@ -45,3 +45,9 @@ You can cancel individual swaps on the Market tab for the token in question. You
 ## How do I change the price or duration of my sales listing?
 
 In order to amernd the price or duration of a timed swap, you will have to cancel the sales listing and create a new swap.
+
+## What happens when a timed swap finishes?
+
+If there is a buyer before the timed swap ends, then the token is exchanged for the buyer's tezos and it is sent to the buyer.
+
+If there's no buyer, then the seller has to press the "Complete swap" button on the token page or their dashboard to remove it.

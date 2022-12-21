@@ -8,6 +8,7 @@ These are the main contract Tezos Mainnet addresses used by Versum:
 - Items: `KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW`
 - Market: `KT1GyRAJNdizF1nojQz62uGYkx8WFRUJm9X5`
 - Identity: `KT1NUrzs7tiT4VbNPqeTxgAFa4SXeV1f3xe9`
+- Royalties Registry: `KT1NffZ1mqqcXrwYY3ZNaAYxhYkyiDvvTZ3C`
 
 ## Materia
 

@@ -25,3 +25,10 @@ You can cancel the offer on the token's Market tab or via your [Dashboard](https
 ## How do I amend how much I want to offer?
 
 In order to amernd the offer amount, you will have to cancel the offer and create a new one.
+
+## Which marketplaces' offers are shown on Versum?
+
+In addition to Versum offers, the offer dashboard also displays offers data from additional Tezos marketplaces, and allows you to accept the offer from them directly:
+
+* [Versum](https://versum.xyz)
+* [objkt.com](https://objkt.com)

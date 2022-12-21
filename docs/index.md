@@ -30,6 +30,8 @@ We aim to redefine the art experience within the NFT space. We’ve applied addi
 
 **Personalized feeds** — Like a token or follow an artist or a board to personalize your feed. Unlike other marketplaces where leaderboards and platform-curated content dominate homepages, you decide the content you want to see.<br/>
 
+**Multiple collections** - Many different popular Tezos NFT collections are available on Versum and can be purchased, listed or sold in one place. New collections will be added on an ongoing basis. Listings include those from from Teia, Objkt.com & 8bidou marketplaces.
+
 **Web accessibility** — One of our top objectives is for more users to have equal access to information and functionality. We follow a strict WAI-ARIA standard which ensures users with disabilities, including screen reader users, users who cannot use a mouse or a pointing device, and users with socio-economic restrictions on bandwidth and speed, can fully navigate on Versum.<br/>
 
 **Contextual routes** — Explore different tokens without losing your original place on the feed. This feature loads new pages on top of existing content for easy navigation.<br/>

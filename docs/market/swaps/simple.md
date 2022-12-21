@@ -41,3 +41,21 @@ You can cancel individual swaps on the Market tab for the token in question. You
 
 In order to amernd the price of a swap, you will have to cancel the sales listing and create a new swap.
 
+
+## Where will be my Versum swaps be listed?
+
+Tokens swapped on [https://versum.xyz] are listed on the Versum Marketplace smart contract. They can also be collected from these marketplaces:
+
+* [Versum](https://versum.xyz)
+* [objkt.com](https://objkt.com)
+* [TEIA](https://teia.art/) (coming soon)
+
+
+## Which marketplaces' listings are shown on Versum?
+
+In addition to Versum listings, Versum also supports listings data from additional Tezos marketplaces, and allows you to purchase from them directly on Versum:
+
+* [Versum](https://versum.xyz)
+* [objkt.com](https://objkt.com)
+* [TEIA](https://teia.art/) (coming soon)
+* [8BIDOU](https://www.8bidou.com/)

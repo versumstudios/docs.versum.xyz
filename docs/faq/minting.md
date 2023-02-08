@@ -71,3 +71,7 @@ There's no limit.
 Tags can be used for filtering and discovery on Versum's [Explore](https://versum.xyz/explore) page. Add things like the style (e.g. painting, photography, abstract), colour (blue, yellow, monochrome), or content (cats, robots). 
 
 Tags are not case sensitive. Take care to spell them correctly, as they're saved permanently in the token metadata.
+
+## How can I share the proceeds with another wallet, for example for a fundraiser?
+
+Use the Royalties Split function to assign what percentage of the revenue is sent to which address. By default 100% goes to you, the minter, but you can divide this among multiple wallets. It is also possible to send 100% to another wallet, simply by changing the initial Split address. The percentage applies both to Primary sales as well as the Royalties on secondary sales.

@@ -74,4 +74,6 @@ Tags are not case sensitive. Take care to spell them correctly, as they're saved
 
 ## How can I share the proceeds with another wallet, for example for a fundraiser?
 
-Use the Royalties Split function to assign what percentage of the revenue is sent to which address. By default 100% goes to you, the minter, but you can divide this among multiple wallets. It is also possible to send 100% to another wallet, simply by changing the initial Split address. The percentage applies both to Primary sales as well as the Royalties on secondary sales.
+While minting, use the **Royalties Split** section to assign what percentage of the revenue is sent to which address. By default 100% goes to you, the minter, but you can divide this among multiple wallets. It is also possible to send 100% to another wallet, simply by changing the initial Split address. The percentage applies both to Primary sales as well as the royalties on secondary sales.
+
+**Please note that for this percentage split to work on Primary sales, you need to swap on Versum, otherwise it will only affect Secondary sales.**
